@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> MasooN </title>
+    <!--bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Google Fonts USed-->
+    <link href="https://fonts.googleapis.com/css?family=Chela+One|Indie+Flower|Pacifico" rel="stylesheet">
+    <style>
+        .first {
+            background-image: url("https://wallpapercave.com/wp/vU5eb9T.jpg");
+
+            background-repeat: no-repeat;
+            background-size: 1366px 650px;
+            height: 100%;
+
+            background-color: black;
+            background-attachment: fixed
+        }
+
+        .second {
+            background-image: url(https://images6.alphacoders.com/343/thumb-1920-343137.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        #nav {
+            font-family: 'chela one', cursive;
+            font-size: 35px;
+
+        }
+
+        #navi {
+            margin-left: 60px;
+            color: beige;
+        }
+
+        #wtf {
+            margin-left: 30px;
+            margin-top: 60px;
+            font-size: 65px;
+            font-family: 'pacifico', cursive;
+            background-image: none;
+            background-color: transparent;
+            color: beige;
+
+        }
+
+        #wth {
+            font-size: 25px;
+            font-family: 'indie flower', cursive;
+            margin-bottom: 20px;
+            width: 250px;
+            border-radius: 16px;
+            background-image: none;
+            background-color: transparent;
+            color: beige;
+        }
+
+        #wtf span,
+        span {
+            font-size: 40px;
+            color: beige;
+            font-family: 'chela one', cursive;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        <nav id="nav" class=" navbar navbar-default  navbar-fixed-top navbar-inverse"><span id="navi"><img src="http://bernews.com/weather/wp-content/uploads/2013/02/clouds-sun-rain-day.png">MANSOON</span>
+        </nav>
+
+        <div class="container">
+            <div class="jumbotron" id="wtf">
+
+                <h1>Check MansooN in your City...</h1>
+                <div class="col-12 text-center pt-5">
+                    <input type="text" id="wth" placeholder="Enter Location eg: Goa"></div>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Climate</a></p>
+            </div>
+        </div>
+        <span>
+        <p>Enter the location and Hit climate Button to Know the climate of that location</p>
+        </span>
+
+        <div class="jumbotron" id="wtf">
+            <span><p>Weather Of</p></span>
+        </div>
+        <div class="second">
+            <div class="jumbotron" id="wtf"><span><br>Date:
+                <br>Minimum Temperature:<br>Maximum Temperature:<br>Current Temperature:<br>Wind Speed:</span>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
