@@ -47,20 +47,25 @@ function displayLocationResult(result) {
         for (let i = 0; i < weather.length; i++) {
             console.log(weather[i].weather_state_name);
             //            var elemnts = `<div>${weather[i]}`;
-            let hackedHTMLDiv = `<div class="jumbotron" id="id_${i}">\
-<div class="row">
+            let hackedHTMLDiv = ` <div class="col-xs-3"><div class="card" style="width:92%;max-width:300px;">\
+<div class="container">
 <h3> Date:<h5 style=""color:green;margin-left:20px">${weather[i].applicable_date}</h5></h3>
-<div class"col-xs-12 col-sm-12 style="text-align:center">
-<h3>Minimum Temperature:<h5 style="color:blue">${weather[i].min_temp}&deg;C</a></h5></h3>
-<h3>Maximum Temperature:<h5 style="color:blue">${weather[i].max_temp}&deg;C</h5></h3>
-<h3>Current Temperature:<h5 style="color:blue">${weather[i].the_temp}&deg;C</h5></h3>
-<h3>Wind speed:<h5 style="color:blue">${weather[i].wind_speed}</h5></h3>
+<h3>State:<h5 style="color:blue">${weather[i].weather_state_name}</h5></h3></div>
+ <img src="http://www.infographiccity.com/wp-content/plugins/RSSPoster_PRO/cache/641c0_cloudy-weather-icons.jpg" alt="Avatar" style="width:100%;opacity:0.85;border-radius:5px 5px 0 0">
+<div class="container">
+<h3>Min-Temp:<h5 style="color:blue">${weather[i].min_temp}&deg;C</a></h5></h3>
+<h3>Max-Temp:<h5 style="color:blue">${weather[i].max_temp}&deg;C</h5></h3>
+<h3>Current Temp:<h5 style="color:blue">${weather[i].the_temp}&deg;C</h5></h3>
+
 </div>
-</div>
-</div>`;
+</div></div>`;
             //            $("#result").append(elemnts);
+            var n = max_temp;
+            var num = n.toFixed(2);
+            //            the_temp.toFixed(2);
             $("#result").append(hackedHTMLDiv);
         }
         console.log(result);
     }
 }
+//<div class"col-xs-12 col-sm-12 style="text-align:center">
