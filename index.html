@@ -17,46 +17,87 @@
 
 <body>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!--Bottom Indicators-->
+        <div class="hidden-xs">
+            <ol class="carousel-indicators">
+
+                <li data-target="#myCarousel" data-slide-to="0" class=""><img class="img-responsive " src="https://i.gifer.com/2D2N.gif" alt="">
+                </li>
+                <li data-target="#myCarousel" data-slide-to="1" class="active"><img class="img-responsive" src="https://www.freeiconspng.com/uploads/get-rain-png-pictures-20.png" alt="">
+                </li>
+                <li data-target="#myCarousel" data-slide-to="2" class=""><img class="img-responsive" src="https://purepng.com/public/uploads/large/purepng.com-lightninglightningsudden-electrostatic-dischargeintra-cloud-lightningcc-lightning-1411527066103gxqad.png" alt="">
+                </li>
+                <li data-target="#myCarousel" data-slide-to="3" class=""><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg" alt="">
+                </li>
+                <li data-target="#myCarousel" data-slide-to="4" class=""><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg" alt="">
+                </li>
+            </ol>
+        </div>
         <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active">
-            </li>
-            <li data-target="#myCarousel" data-slide-to="1">
-            </li>
-            <li data-target="#myCarousel" data-slide-to="2">
-            </li>
-        </ol>
+        <!--
+<ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active">
+    </li>
+    <li data-target="#myCarousel" data-slide-to="1">
+    </li>
+    <li data-target="#myCarousel" data-slide-to="2">
+    </li>
+    <li data-target="#myCarousel" data-slide-to="3">
+    </li>
+    <li data-target="#myCarousel" data-slide-to="4">
+    </li>
+</ol>
+-->
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item">
-                <img src="https://cdn.allwallpaper.in/wallpapers/2400x1350/53/vintage-landscape-2400x1350-wallpaper.jpg" alt="summer" width="1920" height="600">
+                <img src="https://images2.alphacoders.com/103/103542.jpg" alt="Rainy" width="1920" height="500">
                 <div class="carousel-caption">
-                    <div class="hidden-xs">
-                        <h1>Check Weather in your City...</h1>
+                    <div class="col-3 text-right hidden-xs">
+                        <h1>Thunder..ry R@in!!..</h1>
                     </div>
                 </div>
             </div>
 
 
             <div class="item">
-                <img src="https://i.ytimg.com/vi/Ny5vEFdcvV0/maxresdefault.jpg" alt="Chicago" width="1920" height="600">
+                <img src="https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/180520.jpg" alt="Spring" width="1920" height="600">
                 <div class="carousel-caption">
-                    <div class="col-3 text-center hidden-xs">
-                        <h1>Check Weather in your City...</h1>
+                    <div class="col-3 text-right hidden-xs">
+                        <h1>SpringgY..YAY!!</h1>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="http://www.mikereyfman.com/wp-content/gallery/lofoten-archipelago-in-winter-arctic-norway/056_LF-MRD1E0971_Lofoten-Archipelago.jpg" alt="Winter" width="1920px" height="600px">
+                <div class="carousel-caption">
+                    <div class="col-3 text-right hidden-xs">
+                        <h1>Wintee..eR!!</h1>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://images3.alphacoders.com/166/166569.jpg" alt="Autum" width="1920" height="600">
+                <div class="carousel-caption">
+                    <div class="col-3 text-right hidden-xs">
+                        <h1>AuhtuM..!!</h1>
 
                     </div>
                 </div>
             </div>
 
             <div class="item active">
-                <img src="http://t.wallpaperweb.org/wallpaper/nature/1280x720/latesunsetwallpaper2107_1280x720.jpg" alt="New York" width="1920" height="600">
+                <img src="http://4.bp.blogspot.com/-Qp1z0rJjrvI/U6E77I7xH7I/AAAAAAAAEig/c2BrHs_4adE/s1600/hd_summer_landscape-1920x1080-widescreen.jpg" alt="Summer" width="1920" height="600">
                 <div class="carousel-caption">
-                    <div class="col-3 text-center hidden-xs">
-                        <h1>Check Weather in your City...</h1>
+                    <div class="col-3 text-right hidden-xs">
+                        <h1>SummeR...!!</h1>
                     </div>
                 </div>
             </div>
+
         </div>
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -83,52 +124,20 @@ Clime</a>
         </div>
 
         <div class="col-lg-12 text-center pt-5">
-            <button class="btn btn-clear btn-lg btn-min-block" type="button" onclick="checkweather();">climate</button>
-            <input class="text-center" type="text" id="location" placeholder="Enter Location eg: Goa">
-        </div>
-    </div>
+            <br>
+            <br>
+            <input class="text-center" type="text" id="location" placeholder="Enter Location eg: Goa"> </div>
+        <div class="col-lg-12 text-center">
 
+            <br>
+            <br>
+            <button class="btn btn-clear btn-lg btn-min-block" type="button" onclick="checkweather();">climate</button>
+        </div>
+
+    </div>
     <div class="container" id="message">
     </div>
 
-
-
-    <!--
-                       
-                            <h4><b>John Doe</b></h4>
-                            <p>Architect & Engineer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-3">
-                    <div class="card" style="width:92%;max-width:300px;">
-                        <img src="http://www.infographiccity.com/wp-content/plugins/RSSPoster_PRO/cache/641c0_cloudy-weather-icons.jpg" alt="Avatar" style="width:100%;opacity:0.85;border-radius:5px 5px 0 0">
-                        <div class="container">
-                            <h4><b>John Doe</b></h4>
-                            <p>Architect & Engineer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-3">
-                    <div class="card" style="width:92%;max-width:300px;">
-                        <img src="http://www.infographiccity.com/wp-content/plugins/RSSPoster_PRO/cache/641c0_cloudy-weather-icons.jpg" alt="Avatar" style="width:100%;opacity:0.85;border-radius:5px 5px 0 0">
-                        <div class="container">
-                            <h4><b>John Doe</b></h4>
-                            <p>Architect & Engineer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-3">
-                    <div class="card" style="width:92%;max-width:300px;">
-                        <img src="http://www.infographiccity.com/wp-content/plugins/RSSPoster_PRO/cache/641c0_cloudy-weather-icons.jpg" alt="Avatar" style="width:100%;opacity:0.85;border-radius:5px 5px 0 0">
-                        <div class="container">
-                            <h4><b>John Doe</b></h4>
-                            <p>Architect & Engineer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
--->
     <div id="result" class="container">
 
         <h1 class="text-center">click on button to check weather</h1>
