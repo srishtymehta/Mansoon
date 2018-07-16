@@ -1,163 +1,162 @@
- /*
-        .first {
-            background-image: url("https://images6.alphacoders.com/343/thumb-1920-343137.jpg");
-            background-repeat: no-repeat;
-            background-size: 1366px 650px;
-                    background-attachment: fixed;
-            height: 100%;
-                     background-image: linear-gradient( #1f2123, grey, black);
-        }
+body {
+    background-image: url(https://camo.envatousercontent.com/01c92ebf8d342c4a0da7bcc43e4f2cb4d6fad37b/687474703a2f2f63312e737461746963666c69636b722e636f6d2f332f323731382f33323837333035333539325f653861636533373135345f6b2e6a7067);
+    background-attachment: fixed;
+    /*         background-size:1360px 800px;*/
+}
 
-        .second {
-            background-image: url(https://images6.alphacoders.com/343/thumb-1920-343137.jpg);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-*/
+.item img {
+    height: 600px !important;
+    width: 1360px !important;
+}
 
- .logo {
-     font-size: 36px;
-     color: antiquewhite;
-     font-family: 'griffy', cursive;
- }
+#myCarousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
 
- a:link {
+#myCarousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
 
-     text-decoration: none;
-     color: antiquewhite;
- }
+#myCarousel .carousel-indicators .active {
+    background: transparent;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
 
- a:hover {
-     text-decoration: none;
-     color: darkkhaki;
- }
+    overflow: hidden;
+}
 
- a img {
-     width: 60px;
-     height: 60px;
-     margin-left: 0px;
- }
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
+.logo {
+    font-size: 36px;
+    color: antiquewhite;
+    font-family: 'griffy', cursive;
+}
 
- #wf {
-     margin-left: 30px;
-     margin-top: 0px;
-     font-size: 65px;
-     font-family: 'Spirax', cursive;
-     background-image: none;
-     background-color: transparent;
-     color: beige;
- }
+a:link {
 
+    text-decoration: none;
+    color: antiquewhite;
+}
 
- #location {
-     font-size: 26px;
-     font-family: 'Sail', cursive;
-     width: 300px;
-     border-radius: 16px;
-     color: black;
+a:hover {
+    text-decoration: none;
+    color: darkkhaki;
+}
 
-     background-image: none;
-     background-color: transparent;
-
- }
-
-
- #wf span {
-     font-size: 40px;
-     color: beige;
-     font-family: 'griffy', cursive;
-     background-color: rgba(94, 64, 35, 0.4);
-     text-align: center;
- }
+a img {
+    width: 60px;
+    height: 60px;
+    margin-left: 0px;
+}
 
 
- /*
-        .btn-primary,
-        .btn-primary:hover,
-        .btn-primary:active,
-        .btn-primary:visited {
-            background-image: url(http://t.wallpaperweb.org/wallpaper/nature/1280x720/latesunsetwallpaper2107_1280x720.jpg);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-*/
-
- .main-text {
-     position: absolute;
-     top: 50px;
-     width: 96.666%;
-     color: antiquewhite;
- }
+#wf {
+    margin-left: 30px;
+    margin-top: 0px;
+    font-size: 65px;
+    font-family: 'Spirax', cursive;
+    background-image: none;
+    background-color: transparent;
+    color: beige;
+}
 
 
- .card {
-     /* Add shadows to create the "card" effect */
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-     transition: 0.3s;
- }
+#location {
+    font-size: 26px;
+    font-family: 'Sail', cursive;
+    width: 600px;
+    border-radius: 19px;
+    color: floralwhite;
+    background-color: rgba(28, 40, 51, 0.4);
 
- /* On mouse-over, add a deeper shadow */
-
- .card:hover {
-
-     /*  Add some padding inside the card container*/
-     .container {
-         padding: 2px 16px;
-
-     }
- }
-
- */ footer #copyright {
-     width: 250px;
-     margin: 0 auto;
-     font-size: 12px;
-     text-align: center;
-     color: #fff;
-     font-style: italic;
-     padding: 24px 0;
- }
-
- footer #main_footer {
-     background: #666;
-     padding: 90px 0 130px 0;
-     width: 100%;
-     border-bottom: 1px solid #396072;
-     text-align: center;
- }
-
- footer #main_footer ul {
-     font-size: 0;
- }
-
- @media (max-width: 480px) footer #social_nav {
-     width: 100%;
- }
-
- footer #social_nav {
-     width: 330px;
-     margin: 0 auto;
- }
+}
 
 
- .last {
-     background-image: url(http://gipsypixel.com/wp-content/uploads/2017/11/Dark-Brick-Wallpaper-High-Quality-Wall-Hd-Desktop-And-Mobile-Of-Laptop.jpg);
-     background-repeat: no-repeat;
-     background-size: ;
- }
+#wf span {
+    font-size: 40px;
+    color: beige;
+    font-family: 'griffy', cursive;
+    background-color: rgba(94, 64, 35, 0.4);
+    text-align: center;
+}
 
- footer #social_nav li a i {
-     font-size: 15px;
-     color: #666;
-     position: relative;
-     top: 7px;
-     display: inline;
-     vertical-align: middle;
-     height: 32px;
- }
+.main-text {
+    position: absolute;
+    top: 50px;
+    width: 96.666%;
+    color: azure;
+}
 
- @media (min-width: 992px) .container {
-     width: 970px;
-     height: 100px;
-     margin-top: 70px;
- }
+.main-text h1 {
+    margin-top: 80px;
+}
+
+.main-text button {
+    color: azure;
+    font-size: 26px;
+    background-color: rgba(95, 64, 35, 0.7);
+    border-radius: 60px;
+    font-family: cursive;
+
+}
+
+#result {
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+
+    /*  Add some padding inside the card container*/
+    .container {
+        padding: 2px 16px;
+
+    }
+}
+
+footer #copyright {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    padding: 24px 0;
+}
+
+footer #main_footer {
+    background: #666;
+    padding: 90px 0 130px 0;
+    width: 100%;
+    border-bottom: 1px solid #396072;
+    text-align: center;
+    font-size: 10px;
+    color: aliceblue;
+}
