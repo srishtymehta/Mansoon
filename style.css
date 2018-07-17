@@ -1,12 +1,6 @@
 body {
     background-image: url(https://camo.envatousercontent.com/01c92ebf8d342c4a0da7bcc43e4f2cb4d6fad37b/687474703a2f2f63312e737461746963666c69636b722e636f6d2f332f323731382f33323837333035333539325f653861636533373135345f6b2e6a7067);
     background-attachment: fixed;
-    /*         background-size:1360px 800px;*/
-}
-
-.item img {
-    height: 600px !important;
-    width: 1360px !important;
 }
 
 #myCarousel .carousel-indicators {
@@ -33,11 +27,20 @@ body {
     width: 128px;
     height: 128px;
     border-radius: 100px;
-    border-color: #f33;
+    border-color: darkgray;
     opacity: 1;
-
     overflow: hidden;
 }
+
+.carousel-caption {
+    font-family: 'griffy';
+}
+
+.item img {
+    height: 600px !important;
+    width: 1360px !important;
+}
+
 
 .img-responsive {
     display: block;
@@ -68,35 +71,14 @@ a img {
     margin-left: 0px;
 }
 
-
-#wf {
-    margin-left: 30px;
-    margin-top: 0px;
-    font-size: 65px;
-    font-family: 'Spirax', cursive;
-    background-image: none;
-    background-color: transparent;
-    color: beige;
-}
-
-
 #location {
-    font-size: 26px;
-    font-family: 'Sail', cursive;
-    width: 600px;
+    font-size: 35px;
+    font-family: 'Rochester';
+    text-align: center;
     border-radius: 19px;
     color: floralwhite;
-    background-color: rgba(28, 40, 51, 0.4);
+    background-color: rgba(28, 40, 51, 0.5);
 
-}
-
-
-#wf span {
-    font-size: 40px;
-    color: beige;
-    font-family: 'griffy', cursive;
-    background-color: rgba(94, 64, 35, 0.4);
-    text-align: center;
 }
 
 .main-text {
@@ -108,20 +90,35 @@ a img {
 
 .main-text h1 {
     margin-top: 80px;
+    font-size: 50px;
+    font-family: 'Rochester';
+
 }
 
 .main-text button {
     color: azure;
-    font-size: 26px;
-    background-color: rgba(95, 64, 35, 0.7);
+    font-size: 30px;
+    background-color: rgba(95, 64, 35, 0.8);
     border-radius: 60px;
-    font-family: cursive;
+    font-family: 'Rochester';
+    margin-left: 120px;
+    margin-top: 20px;
+    cursor: pointer;
+}
 
+input[type=text] {
+    width: 100%;
+    padding: 20px 30px;
+    margin: 20px 0px 10px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 #result {
     background-color: transparent;
     color: antiquewhite;
+    font-family: 'Mystery Quest';
 }
 
 .card {
@@ -137,18 +134,18 @@ a img {
     /*  Add some padding inside the card container*/
     .container {
         padding: 2px 16px;
-
     }
 }
 
 footer #copyright {
     width: 250px;
     margin: 0 auto;
-    font-size: 12px;
+    font-size: 26px;
     text-align: center;
     color: #fff;
     font-style: italic;
     padding: 24px 0;
+    font-family: 'Tangerine';
 }
 
 footer #main_footer {
